@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My first interactive site</title>
+    <link rel="icon" href="static/avatar.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#">About me</a>
+            <a href="#">Game</a>
+            <a href="#">Blog</a> 
+        </nav>  
+        <div class="contacts">
+            <a href="https://t.me/B1nC0D3">
+                <img src="static/logos/telegram.svg" alt="telegram page", title="My telegram">
+            </a>
+            <a href="https://github.com/B1nC0D3">
+                <img src="static/logos/github.svg" alt="github page" title="My github">
+            </a>
+        </div> 
+    </header>
+
+    <main>
+
+        <div class="about_us">
+            <div>
+                <img src="static/avatar.png" alt="image" title="title">
+            </div>
+            <div class="about_us-description">
+                <p>
+                    <strong>Name</strong>
+                    <span>Kirill</span>
+                </p>
+                <p>
+                    <strong>Learned languages:</strong>
+                    <span>Python, JS (in progress), TypeScript (in progress)</span>
+                </p>
+                <p>
+                    <strong>Hobby</strong>
+                    <span>Playing on guitar, some videogames and obviously coding</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="my_game" id="my_game">
+            <h2>Play game</h2>
+            <p></p>
+            <input type="number" hidden>
+            <button>Start!</button>
+        </div>
+        <div class="choosed_block">
+            <h2>Choose elements</h2>
+            <p>Choosed elements: <span>0</span></p>
+            <div class="choosed_block-container">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>10</div>
+                <div>11</div>
+                <div>12</div>
+            </div>
+        </div>
+        <div class="post_block">
+            <h2>Fake blog</h2>
+            <div class="post_block_container">
+                <!-- <p>
+                    <h3></h3>
+                    <span></span>
+                </p> -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        2023    
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
