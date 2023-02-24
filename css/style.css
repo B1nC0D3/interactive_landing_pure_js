@@ -6,10 +6,17 @@
     font-family: 'Comfortaa', cursive;
 }
 
+main {
+    margin-top: 50px;
+}
+
 header {
     background-color: lightgray;
+    top: 0;
     height: 50px;
+    width: 100%;
     display: flex;
+    position: fixed;
     box-sizing: border-box;
     justify-content: space-between;
 }
@@ -20,9 +27,6 @@ header img {
     object-fit: cover;
 }
 
-header svg:hover {
-    fill: rgb(206, 136, 145);
-}
 
 header a:hover {
     color: rgb(206, 136, 145);
